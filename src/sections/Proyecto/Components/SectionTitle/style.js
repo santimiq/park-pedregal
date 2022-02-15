@@ -2,15 +2,15 @@ import styled from "styled-components/macro"
 import { Heading, Box, Paragraph } from "~styled"
 
 const SectionTitle = styled(Box)`
-  font-family: "Campton-SemiBold";
+  font-family: "Nunito Sans";
 `
 SectionTitle.Text = styled(Paragraph)`
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: normal;
   line-height: 1.77777;
-  color: #262729;
-  font-family: "Campton-Medium";
+  color: #004581;
+  
 `
 
 SectionTitle.Subtitle = styled(Heading)`
@@ -39,11 +39,13 @@ SectionTitle.Subtitle = styled(Heading)`
   }
 `
 SectionTitle.Main = styled(Heading)`
+span {
+
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 1.38095;
-  color: #002e6d;
+  color: #004581;
   @media (min-width: 768px) {
     font-size: 33px;
   }
@@ -51,5 +53,6 @@ SectionTitle.Main = styled(Heading)`
   @media (min-width: 1200px) {
     font-size: 42px;
   }
+}
 `
 export default SectionTitle

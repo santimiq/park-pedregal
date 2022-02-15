@@ -2,9 +2,46 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Service = styled(Box)`
+
+  #proyecto {
+    position: relative;
+  }
+
+  .triangulo {
+    position: absolute; 
+    top: 0;
+    width: 25%;
+  }
   padding-top: 60px;
   padding-bottom: 30px;
-  background-color: #cdcdcd !important;
+  background-color: rgba(157, 143, 104, 0.3); !important;
+  text-align: center;
+
+  .fachada-image {
+    border-radius: 20px;
+  }
+
+  .btn-recorrido{
+    margin: 6px 10px;
+    padding: 8px 24px;
+    font-size: 14px;
+    color: #fff !important;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 0%);
+    background-color: #004581;
+    border-color: #004581;
+    transition: 0.4s;
+    border-radius: 500px;
+
+    &:hover {
+      box-shadow: 0 20px 20px rgb(0 46 109 / 30%);
+      color: #fff !important;
+      background-color: rgba(0, 69, 129, 0.9);
+      border-color: rgba(0, 69, 129, 0.9);
+    }
+  }
+  .group-recorrido {
+    margin-bottom: 16px;
+  }
 
   @media (min-width: 768px) {
     padding-top: 80px;
@@ -12,8 +49,17 @@ const Service = styled(Box)`
   }
 
   @media (min-width: 992px) {
-    padding-top: 130px;
+    padding-top: 70px;
     padding-bottom: 130px;
+    .group-recorrido {
+      display: flex; 
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+    .btn-recorrido{
+      margin: 12px 20px;
+    }
+
   }
 
   .row-on-mobile {
