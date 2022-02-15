@@ -2,14 +2,22 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const PortfolioDetails = styled(Box)`
+
+  .rectangulo {
+    position: absolute; 
+    top: 0;
+    width: 100%;
+  }
+
   padding: 45px 0;
+  position: relative;
 
   @media (min-width: 768px) {
     padding: 40px 0;
   }
 
   @media (min-width: 992px) {
-    padding: 80px 0 30px 0;
+    padding: 120px 0 30px 0;
   }
   @media (max-width: 578px) {
     padding: 45px 0 30px 0;
@@ -24,12 +32,11 @@ PortfolioDetails.Content = styled(Box)``
 
 PortfolioDetails.Title = styled(Heading)`
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 54px;
   margin-bottom: 25px;
-  color: #002e6d;
-  font-family: "Campton-SemiBold";
+  color: #FFF;
 
   @media (min-width: 768px) {
     font-size: 35px;
@@ -42,13 +49,12 @@ PortfolioDetails.Title = styled(Heading)`
 
 PortfolioDetails.Text = styled(Paragraph)`
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: normal;
   line-height: 32px;
   margin-bottom: 20px;
   margin-right: 10px;
   color: #a3a5a8;
-  font-family: "Campton-SemiBold";
 `
 // PortfolioDetails.List = styled(Box)`
 //   padding: 0;
@@ -150,7 +156,7 @@ PortfolioDetails.SliderWrapper = styled(Box)`
         top: 0;
         left: 0;
         button {
-          background: #002e6d;
+          background: #FFF;
           width: 100%;
         }
       }

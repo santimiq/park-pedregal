@@ -18,6 +18,7 @@ module.exports = {
         implementation: require("sass"),
       },
     },
+    `gatsby-theme-gallery`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

@@ -2,7 +2,6 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Service = styled(Box)`
-
   #proyecto {
     position: relative;
   }
@@ -50,7 +49,7 @@ const Service = styled(Box)`
 
   @media (min-width: 992px) {
     padding-top: 70px;
-    padding-bottom: 130px;
+    padding-bottom: 70px;
     .group-recorrido {
       display: flex; 
       justify-content: center;
