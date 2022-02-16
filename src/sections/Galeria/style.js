@@ -2,9 +2,8 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const PortfolioDetails = styled(Box)`
-
   .rectangulo {
-    position: absolute; 
+    position: absolute;
     top: 0;
     width: 100%;
   }
@@ -17,7 +16,7 @@ const PortfolioDetails = styled(Box)`
   }
 
   @media (min-width: 992px) {
-    padding: 120px 0 30px 0;
+    padding: 150px 0 30px 0;
   }
   @media (max-width: 578px) {
     padding: 45px 0 30px 0;
@@ -36,7 +35,7 @@ PortfolioDetails.Title = styled(Heading)`
   letter-spacing: normal;
   line-height: 54px;
   margin-bottom: 25px;
-  color: #FFF;
+  color: #fff;
 
   @media (min-width: 768px) {
     font-size: 35px;
@@ -56,37 +55,6 @@ PortfolioDetails.Text = styled(Paragraph)`
   margin-right: 10px;
   color: #a3a5a8;
 `
-// PortfolioDetails.List = styled(Box)`
-//   padding: 0;
-//   margin: 0;
-//   li {
-//     font-size: 18px;
-//     font-weight: 500;
-//     letter-spacing: normal;
-//     line-height: 25px;
-//     position: relative;
-//     padding-left: 30px;
-//     margin-bottom: 20px;
-//     list-style: none;
-
-//     &::before {
-//       content: "";
-//       position: absolute;
-//       left: 0;
-//       top: 50%;
-//       transform: translateY(-50%);
-//       width: 11px;
-//       height: 11px;
-//       border-radius: 50%;
-//       background-color: #ff5722;
-//     }
-
-//     span {
-//       color: #262729;
-//       margin-right: 15px;
-//     }
-//   }
-// `
 
 PortfolioDetails.Box = styled(Box)``
 PortfolioDetails.SliderWrapper = styled(Box)`
@@ -156,7 +124,7 @@ PortfolioDetails.SliderWrapper = styled(Box)`
         top: 0;
         left: 0;
         button {
-          background: #FFF;
+          background: #fff;
           width: 100%;
         }
       }

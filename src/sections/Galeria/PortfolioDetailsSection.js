@@ -76,7 +76,7 @@ export default function PortfolioDetailsSection() {
   }
   return (
     <PortfolioDetails backgroundColor="#9D8F68">
-          <Img
+      <Img
         className="rectangulo"
         src="../../assets/image/desarrollo/rectangulo.svg"
         alt="content"
@@ -88,14 +88,16 @@ export default function PortfolioDetailsSection() {
           <Row className="align-items-center justify-content-center justify-content-lg-start">
             <Col xs="10" className="col-xl-12 col-lg-6 col-md-10">
               <PortfolioDetails.Content>
-                <PortfolioDetails.Title as="h2">Amenidades</PortfolioDetails.Title>
+                <PortfolioDetails.Title as="h2">
+                  Amenidades
+                </PortfolioDetails.Title>
               </PortfolioDetails.Content>
             </Col>
           </Row>
         </PortfolioDetails.Box>
         <Row className="justify-content-center justify-content-lg-start">
           <Col xs="10" className="col-xl-12 col-lg-6 col-md-10">
-            <PortfolioDetails.SliderWrapper mt="50px" mtLG="80px">
+            <PortfolioDetails.SliderWrapper mt="30px" mtLG="30px">
               <Slider
                 ref={elSlider}
                 className="testimonial-slider"

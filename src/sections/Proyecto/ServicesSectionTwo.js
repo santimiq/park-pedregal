@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade"
 
 export default function ServicesSectionTwo() {
   return (
-    <Service backgroundColor="rgba(230, 248, 249, 0.4)" id="proyecto">
+    <Service backgroundColor=" rgba(157, 143, 104, 0.3);" id="proyecto">
       <Img
         className="triangulo"
         src="../../assets/image/desarrollo/triangulo.svg"
@@ -35,8 +35,20 @@ export default function ServicesSectionTwo() {
                 />
                 {/*/ .Section Title */}
                 <div className="group-recorrido">
-                  <a href="https://bit.ly/2S3JxM9" target="_blank" className="btn-recorrido">Recorrido Virtual Depto 1</a>
-                  <a href="https://bit.ly/315TgWq" target="_blank" className="btn-recorrido">Recorrido Virtual Depto 2</a>  
+                  <a
+                    href="https://bit.ly/2S3JxM9"
+                    target="_blank"
+                    className="btn-recorrido"
+                  >
+                    Recorrido Virtual Depto 1
+                  </a>
+                  <a
+                    href="https://bit.ly/315TgWq"
+                    target="_blank"
+                    className="btn-recorrido"
+                  >
+                    Recorrido Virtual Depto 2
+                  </a>
                 </div>
               </Service.Box>
             </Fade>
@@ -65,7 +77,6 @@ export default function ServicesSectionTwo() {
           </Col>
         </Row>
       </Container>
-
     </Service>
   )
 }

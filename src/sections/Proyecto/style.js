@@ -7,20 +7,19 @@ const Service = styled(Box)`
   }
 
   .triangulo {
-    position: absolute; 
+    position: absolute;
     top: 0;
     width: 25%;
   }
   padding-top: 60px;
   padding-bottom: 30px;
-  background-color: rgba(157, 143, 104, 0.3); !important;
   text-align: center;
 
   .fachada-image {
     border-radius: 20px;
   }
 
-  .btn-recorrido{
+  .btn-recorrido {
     margin: 6px 10px;
     padding: 8px 24px;
     font-size: 14px;
@@ -49,16 +48,15 @@ const Service = styled(Box)`
 
   @media (min-width: 992px) {
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 120px;
     .group-recorrido {
-      display: flex; 
+      display: flex;
       justify-content: center;
       margin-bottom: 24px;
     }
-    .btn-recorrido{
+    .btn-recorrido {
       margin: 12px 20px;
     }
-
   }
 
   .row-on-mobile {

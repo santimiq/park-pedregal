@@ -11,6 +11,8 @@ module.exports = {
   //   FAST_REFRESH: true,
   // },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-plugin-sass`,
@@ -18,7 +20,6 @@ module.exports = {
         implementation: require("sass"),
       },
     },
-    `gatsby-theme-gallery`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -29,8 +30,7 @@ module.exports = {
         // `${__dirname}/src/assets/image`
       },
     },
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
+
     `gatsby-background-image`,
     {
       resolve: `gatsby-transformer-remark`,
