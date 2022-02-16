@@ -29,6 +29,8 @@ const Feature = styled(Box)`
       flex-direction: column;
       align-self: center;
       border: none !important;
+      background: #fff;
+      border-radius: 20px;
     }
     .react-tabs__tab {
       height: 100px;
@@ -37,24 +39,40 @@ const Feature = styled(Box)`
       cursor: pointer;
       color: #bbb;
       border-radius: 0px;
-      border-bottom: 1px solid #a3a5a8;
+      border-bottom: 1px solid #9d8f68;
+      @media (min-width: 992px) {
+        width: 200px;
+      }
+    }
+    .react-tabs__tab:first-child {
+      border-radius: 20px 20px 0 0;
+      border-top: 0;
+    }
+    .react-tabs__tab:last-child {
+      border-radius: 0 0 20px 20px;
+      border-bottom: 0;
     }
     .react-tabs__tab--selected {
-      border-left: 4px solid #002e6d;
-      color: #262729;
-      background: transparent;
+      .titulo {
+        color: #fff !important;
+      }
+      .descripcion {
+        color: #fff !important;
+      }
+      background: #9d8f68;
       border-top: 0;
       border-right: 0;
+      border-left: 0;
     }
     .descripcion {
       opacity: 0.7;
-      font-family: "Campton-Medium";
       font-size: 15px;
+      font-weight: 500;
     }
     .titulo {
-      font-family: "Campton-SemiBold";
       font-size: 25px;
-      color: #262729;
+      color: #004581;
+      font-weight: 600;
     }
   }
   @media (max-width: 991px) {
@@ -68,24 +86,27 @@ const Feature = styled(Box)`
       cursor: pointer;
       color: #bbb;
       border-radius: 0px;
-      border-bottom: 1px solid #a3a5a8;
+      border-bottom: 1px solid #9d8f68 !important;
     }
     .react-tabs__tab--selected {
-      border-left: 2px solid #002e6d;
-      color: #262729;
-      background: transparent;
+      /* border-left: 2px solid #004581; */
+      background: #9d8f68;
       border-top: 0;
       border-right: 0;
+      border-left: 0;
+      .titulo {
+        color: #fff !important;
+      }
     }
     .descripcion {
       opacity: 0.7;
-      font-family: "Campton-Medium";
+      font-weight: 600;
       font-size: 14px;
     }
     .titulo {
-      font-family: "Campton-SemiBold";
+      font-weight: 600;
       font-size: 18px;
-      color: #262729;
+      color: #004581;
     }
   }
   .borde-modal {
@@ -94,26 +115,34 @@ const Feature = styled(Box)`
 
   .react-tabs__tab:focus {
     box-shadow: none;
-    border-color: hsl(208, 99%, 50%);
     outline: none;
+  }
+  .react-tabs__tab-list {
+    border-bottom: 0px;
+    margin: 0 0 10px;
+    padding: 0;
   }
 `
 Feature.TitleThree = styled(Heading)`
-  font-size: 45px;
-  font-weight: 500;
+  font-size: 42px;
+  font-weight: 600;
   font-style: normal;
   letter-spacing: normal;
   line-height: 1.66666;
-  margin-bottom: 12px;
-  color: #002e6d;
-  font-family: "Campton-SemiBold";
+  margin-bottom: 30px;
+  color: #004581;
+  text-align: center;
+  margin-top: 50px;
+  @media (min-width: 992px) {
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
 `
 Feature.SubTitleThree = styled(Heading)`
   color: #a3a5a8;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 28px;
-  font-family: "Campton-SemiBold";
   margin-bottom: 30px;
 `
 Feature.Tab = styled(Box)`
@@ -125,7 +154,7 @@ Feature.Tab = styled(Box)`
     justify-content: space-between;
     min-width: 51%;
     transition: 0.4s;
-    border-bottom: 2px solid rgba(248, 249, 252, 0.2);
+    /* border-bottom: 2px solid rgba(248, 249, 252, 0.2); */
     margin-bottom: 60px;
     flex-direction: column;
     @media (min-width: 992px) {
@@ -147,10 +176,8 @@ Feature.Tab = styled(Box)`
       justify-content: space-between;
 
       &.active {
-        background-color: transparent;
-        color: #002e6d;
-        border-left: 2px solid #002e6d;
-        padding: ;
+        background-color: #9d8f68;
+        color: #fff;
       }
       &:last-child {
         margin-right: 0;
