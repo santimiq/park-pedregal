@@ -3,6 +3,9 @@ import styled from "styled-components/macro"
 const SiteHeader = styled.div.attrs({
   className: "site-header",
 })`
+  img:first-child {
+    width: 85% !important; 
+  }
   position: absolute;
   width: 100%;
   z-index: 99;
@@ -445,7 +448,7 @@ const SiteHeader = styled.div.attrs({
             padding-bottom: 0;
           }
           .main-nav-item > .nav-link {
-            color: #004581 !important;
+            color: #FFF !important;
           }
         }
 
@@ -489,7 +492,7 @@ const SiteHeader = styled.div.attrs({
       color: #fff;
     }
     &.reveal-header {
-      background: #fff;
+      background: #004581;
     }
     .hamburgur {
       color: #fff;

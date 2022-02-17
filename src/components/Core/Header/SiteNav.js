@@ -1,7 +1,7 @@
 import React from "react"
 import { Navbar } from "react-bootstrap"
-import siteBrandDark from "~image/logo/park-white.png"
-import siteBrandLight from "~image/logo/park-blue.png"
+import siteBrandLight from "~image/logo/park-white.png"
+import siteBrandDark from "~image/logo/park-blue.png"
 import whatsapp from "~image/whatsapp.svg"
 import Menu from "./Menu"
 const SiteNavbar = ({ buttonBlock, darkLogo, customLogo, defaultLogo }) => {

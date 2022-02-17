@@ -16,6 +16,7 @@ import Acabados from "~sections/Services"
 import Prototipos from "~sections/PrototiposDepto"
 import Oficinas from "~sections/OficinasP"
 import Ubicacion from "~sections/Ubicacion"
+import Contacto2 from "~sections/ContactOne/ContactSection"
 
 const header = {
   headerClasses:
@@ -37,6 +38,7 @@ export default function Marketing() {
       <Prototipos />
       <Oficinas />
       <Ubicacion />
+      <Contacto2 />
 
       <Contacto />
       <Footer />
