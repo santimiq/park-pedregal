@@ -2,8 +2,6 @@ import React from "react"
 import SimpleReactLightbox from "simple-react-lightbox"
 import { PageWrapper } from "~components"
 
-import Recorrido from "~sections/Recorrido"
-import Amenidades from "~sections/Amenidades"
 import Contacto from "~sections/Contact"
 import Footer from "~sections/FooterOne"
 
@@ -17,6 +15,7 @@ import Departamentos from "~sections/Departamentos"
 import Acabados from "~sections/Services"
 import Prototipos from "~sections/PrototiposDepto"
 import Oficinas from "~sections/OficinasP"
+import Ubicacion from "~sections/Ubicacion"
 
 const header = {
   headerClasses:
@@ -37,8 +36,8 @@ export default function Marketing() {
       <Acabados />
       <Prototipos />
       <Oficinas />
+      <Ubicacion />
 
-      <Amenidades />
       <Contacto />
       <Footer />
     </PageWrapper>
