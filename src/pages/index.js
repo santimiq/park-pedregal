@@ -4,7 +4,6 @@ import { PageWrapper } from "~components"
 
 import Recorrido from "~sections/Recorrido"
 import Amenidades from "~sections/Amenidades"
-import Oficinas from "~sections/Oficinas"
 import Contacto from "~sections/Contact"
 import Footer from "~sections/FooterOne"
 
@@ -17,6 +16,7 @@ import Amenidad from "~sections/Features"
 import Departamentos from "~sections/Departamentos"
 import Acabados from "~sections/Services"
 import Prototipos from "~sections/PrototiposDepto"
+import Oficinas from "~sections/OficinasP"
 
 const header = {
   headerClasses:
@@ -36,10 +36,9 @@ export default function Marketing() {
       <Departamentos />
       <Acabados />
       <Prototipos />
-
-      <Recorrido />
-      <Amenidades />
       <Oficinas />
+
+      <Amenidades />
       <Contacto />
       <Footer />
     </PageWrapper>

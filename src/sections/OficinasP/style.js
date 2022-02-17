@@ -2,39 +2,54 @@ import styled from "styled-components/macro"
 import { Box, Heading, Button, Paragraph } from "~styled"
 
 const Service = styled(Box)`
+  padding-top: 100px;
+  padding-bottom: 30px;
+  text-align: center;
   #proyecto {
     position: relative;
   }
-
   .triangulo {
     position: absolute;
     top: 0;
-    width: 25%;
+    width: 100%;
   }
-  padding-top: 60px;
-  padding-bottom: 30px;
-  text-align: center;
-
   .fachada-image {
     border-radius: 20px;
   }
 
+  .trabaja {
+    margin-bottom: 30px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  h5 {
+    font-weight: 500;
+    margin: 30px 0;
+  }
+  h5:first-child {
+    margin-top: 70px;
+  }
+
   .btn-recorrido {
     margin: 6px 10px;
-    padding: 8px 24px;
-    font-size: 14px;
-    color: #fff !important;
+    padding: 16px 32px;
+    font-size: 18px;
+    color: #004581 !important;
     box-shadow: 0 20px 20px rgb(0 0 0 / 0%);
-    background-color: #004581;
-    border-color: #004581;
+    background-color: #fff;
+    border-color: #fff;
     transition: 0.4s;
     border-radius: 500px;
+    transition: 0.3s;
 
     &:hover {
       box-shadow: 0 20px 20px rgb(0 46 109 / 30%);
-      color: #004581 !important;
-      background-color: #fff;
-      border-color: #fff;
+      color: #fff !important;
+      background-color: rgba(0, 69, 129, 0.9);
+      border-color: rgba(0, 69, 129, 0.9);
     }
   }
   .group-recorrido {
@@ -47,7 +62,7 @@ const Service = styled(Box)`
   }
 
   @media (min-width: 992px) {
-    padding-top: 70px;
+    padding-top: 120px;
     padding-bottom: 120px;
     .group-recorrido {
       display: flex;
