@@ -2,7 +2,6 @@ const path = require(`path`)
 module.exports = {
   siteMetadata: {
     title: `Shade Gatsby`,
-    author: "Santiago Miqueo",
   },
   // flags: {
   //   PRESERVE_FILE_DOWNLOAD_CACHE: true,
