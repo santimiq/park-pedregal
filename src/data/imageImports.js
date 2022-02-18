@@ -429,7 +429,7 @@ const Images = {
     PortFoliosImg5: PortFoliosImg5,
   },
   FooterOne: {
-    LogoWhite: CBLogoWhite,
+    LogoWhite: LogoWhite,
   },
   FooterFourDark: {
     LogoWhite: LogoWhite,

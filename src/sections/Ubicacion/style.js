@@ -53,7 +53,7 @@ Content.Block = styled(Box)`
 Content.Title = styled(Heading)`
   font-size: 35px;
   font-weight: 800;
-  letter-spacing: -2px;
+  letter-spacing: 0.3px;
   line-height: 1.20689;
   margin-bottom: 32px;
 

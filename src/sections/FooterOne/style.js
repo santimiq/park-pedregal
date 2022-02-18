@@ -5,17 +5,21 @@ import { Box, Button, Heading, Paragraph } from "~styled"
 const Footer = styled(Box)`
   padding-top: 60px;
   padding-bottom: 20px;
-  background-color: rgba(0, 46, 109, 1) !important;
+  background-color: #9d8f68 !important;
 
   .aviso {
     color: white !important;
+  }
+  .footer-box {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    padding-top: 50px;
   }
   @media (min-width: 768px) {
     padding-top: 80px;
   }
 
   @media (min-width: 992px) {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-bottom: 20px;
   }
 `
@@ -195,7 +199,7 @@ Footer.Copyright = styled(Box)`
   text-align: center;
   padding-top: 25px;
   padding-bottom: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
   display: flex;
   align-items: center;
   flex-wrap: wrap;

@@ -75,7 +75,7 @@ export default function PortfolioDetailsSection() {
     ],
   }
   return (
-    <PortfolioDetails backgroundColor="#9D8F68">
+    <PortfolioDetails backgroundColor="#9D8F68" id="amenidades">
       <Img
         className="rectangulo"
         src="../../assets/image/desarrollo/rectangulo.svg"

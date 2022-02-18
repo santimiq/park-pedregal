@@ -22,19 +22,23 @@ SectionTitle.Subtitle = styled(Heading)`
   }
 `
 SectionTitle.Main = styled(Heading)`
-  font-size: 32px;
+  color: #fff !important;
+  font-size: 35px;
   font-weight: 800;
-  letter-spacing: normal;
-  line-height: 1.38095;
-  span {
-    color: #fff !important;
+  letter-spacing: 0.3px;
+  line-height: 1.20689;
+  margin-bottom: 50px;
+
+  @media (min-width: 480px) {
+    font-size: 38px;
   }
+
   @media (min-width: 768px) {
-    font-size: 33px;
+    font-size: 48px;
   }
 
   @media (min-width: 992px) {
-    font-size: 42px;
+    font-size: 58px;
   }
 `
 export default SectionTitle

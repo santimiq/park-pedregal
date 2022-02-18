@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade"
 
 export default function ServicesSectionTwo() {
   return (
-    <Service backgroundColor=" rgba(157, 143, 104, 0.3);" id="proyecto">
+    <Service backgroundColor=" rgba(157, 143, 104, 0.3);" id="desarrollo">
       <Img
         className="triangulo"
         src="../../assets/image/desarrollo/triangulo.svg"

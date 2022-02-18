@@ -4,7 +4,23 @@ import { Box, Heading, Button, Paragraph } from "~styled"
 const Contact = styled(Box)`
   span {
     color: #fff;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    line-height: 1.20689;
+    margin-bottom: 32px;
+
+    @media (min-width: 480px) {
+      font-size: 38px;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 58px;
+    }
   }
   padding-top: 50px;
   padding-bottom: 36px;

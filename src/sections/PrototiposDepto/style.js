@@ -124,19 +124,28 @@ const Feature = styled(Box)`
   }
 `
 Feature.TitleThree = styled(Heading)`
-  font-size: 42px;
-  font-weight: 600;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: 1.66666;
-  margin-bottom: 30px;
-  color: #004581;
   text-align: center;
-  margin-top: 50px;
+  color: #004581 !important;
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+  line-height: 1.20689;
+  margin-bottom: 32px;
+
+  @media (min-width: 480px) {
+    font-size: 38px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 48px;
+  }
+
   @media (min-width: 992px) {
+    font-size: 58px;
     margin-top: 100px;
     margin-bottom: 50px;
   }
+  margin-top: 50px;
 `
 Feature.SubTitleThree = styled(Heading)`
   color: #a3a5a8;

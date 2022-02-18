@@ -7,7 +7,7 @@ import Fade from "react-reveal/Fade"
 
 export default function ContentSectionOne() {
   return (
-    <Content>
+    <Content id="ubicacion">
       <Img
         className="invertido"
         src="../../assets/image/desarrollo/invertido.svg"

@@ -56,25 +56,24 @@ PortfolioDetails.ImageTwo = styled(Box)`
 PortfolioDetails.Content = styled(Box)``
 
 PortfolioDetails.Title = styled(Heading)`
-  font-size: 32px;
+  font-size: 35px;
   font-weight: 800;
-  letter-spacing: normal;
-  line-height: 54px;
-  margin-bottom: 65px;
+  letter-spacing: 0.3px;
+  line-height: 1.20689;
+  margin-bottom: 50px;
   color: #004581;
   text-align: center;
 
+  @media (min-width: 480px) {
+    font-size: 38px;
+  }
+
   @media (min-width: 768px) {
-    font-size: 35px;
-    margin-bottom: 35px;
+    font-size: 48px;
   }
 
   @media (min-width: 992px) {
-    font-size: 42px;
-    margin-bottom: 75px;
-  }
-  @media (max-width: 578px) {
-    margin-bottom: 25px;
+    font-size: 58px;
   }
 `
 

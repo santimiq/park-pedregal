@@ -8,6 +8,7 @@ export default function ContactOne() {
     <Contact
       backgroundColor="#9D8F68
     "
+      id="contacto"
     >
       <Container>
         <Row>

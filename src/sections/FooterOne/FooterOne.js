@@ -7,67 +7,17 @@ export default function FooterOne() {
   return (
     <Footer>
       <Container>
-        <Footer.Box pbXL="95px">
+        <Footer.Box pbXL="" className="footer-box">
           <Row className="justify-content-center">
-            <Col xs="10" className="col-lg-4 col-md-10 col-xs-10">
+            <Col xs="10" className="col-lg-10 col-md-10 col-xs-10">
               <Footer.Widgets className="footer-widgets footer-widgets--l7">
                 {/* Brand Logo*/}
-                <Footer.Box mb="30px">
-                  <Link to="#">
+                <Footer.Box mb="" className="text-center">
+                  <Link to="/">
                     <img src={Images.FooterOne.LogoWhite} alt="logo" />
                   </Link>
                 </Footer.Box>
               </Footer.Widgets>
-            </Col>
-            <Col xs="10" className="col-md-4 col-xs-6 col-xs-6">
-              <Footer.Widgets>
-                <Footer.Title>Contacto</Footer.Title>
-                <Footer.Address className="widgets-address">
-                  <Footer.AddressItem>
-                    <i className="fa fa-map-marker-alt" />
-                    <span>Dirección:</span>
-                    <span>
-                      Calle Guillermo González Camarena 200, Santa Fé, <br />{" "}
-                      Álvaro Obregón, 01210, CDMX
-                    </span>
-                  </Footer.AddressItem>
-                  <Footer.AddressItem>
-                    <i className="fab fa-whatsapp" />
-                    <span>
-                      Whatsapp: <br className="d-block" />
-                    </span>
-                    <a href="tel:5562133210" className="ms-3">
-                      55 6213 3210
-                    </a>
-                  </Footer.AddressItem>
-                </Footer.Address>
-              </Footer.Widgets>
-            </Col>
-            <Col xs="10" className="col-xl-2 offset-xl-1 offset-xs-1 col-xs-5">
-              <Row>
-                <Col xs="6" className="col-md-4 col-xs-6">
-                  <Footer.Widgets>
-                    <Footer.Title>Menu</Footer.Title>
-                    <Footer.List>
-                      <Footer.ListItems>
-                        <a href="#proyecto">Proyecto</a>
-                      </Footer.ListItems>
-                      <Footer.ListItems>
-                        <a href="#departamentos">Departamentos</a>
-                      </Footer.ListItems>
-                      <Footer.ListItems>
-                        <a href="#amenidades">Amenidades</a>
-                      </Footer.ListItems>
-                      <Footer.ListItems>
-                        <a href="#oficinas">Oficinas</a>
-                      </Footer.ListItems>
-                      <Footer.ListItems>
-                        <a href="#contacto">Contacto</a>
-                      </Footer.ListItems>
-                    </Footer.List>
-                  </Footer.Widgets>
-                </Col>
-              </Row>
             </Col>
           </Row>
         </Footer.Box>
@@ -84,7 +34,7 @@ export default function FooterOne() {
             </Footer.Text>
             <Footer.Copyright>
               <Footer.CopyrightText>
-                © 2021 City Blue Santa Fe | Todos los derechos reservados |{" "}
+                © 2022 Park Pedregal | Todos los derechos reservados |{" "}
                 <Link to="aviso" class="aviso">
                   Aviso de privacidad
                 </Link>

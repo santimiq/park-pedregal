@@ -14,7 +14,7 @@ import img6 from "~image/acabados/6.jpg"
 import Fade from "react-reveal/Fade"
 export default function ServicesSection() {
   return (
-    <Service>
+    <Service id="acabados">
       <Img
         className="dots"
         src="../../assets/image/desarrollo/Dot.svg"

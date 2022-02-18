@@ -10,7 +10,6 @@ SectionTitle.Text = styled(Paragraph)`
   letter-spacing: normal;
   line-height: 1.77777;
   color: #004581;
-  
 `
 
 SectionTitle.Subtitle = styled(Heading)`
@@ -39,20 +38,28 @@ SectionTitle.Subtitle = styled(Heading)`
   }
 `
 SectionTitle.Main = styled(Heading)`
-span {
+  span {
+    color: #004581;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+    line-height: 1.20689;
+    margin-bottom: 0px;
+    margin-top: 32px;
 
-  font-size: 32px;
-  font-weight: 800;
-  letter-spacing: normal;
-  line-height: 1.38095;
-  color: #004581;
-  @media (min-width: 768px) {
-    font-size: 33px;
-  }
+    @media (min-width: 480px) {
+      font-size: 38px;
+      margin-bottom: 0px;
+    }
 
-  @media (min-width: 1200px) {
-    font-size: 42px;
+    @media (min-width: 768px) {
+      font-size: 48px;
+      margin-bottom: 32px;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 58px;
+    }
   }
-}
 `
 export default SectionTitle
