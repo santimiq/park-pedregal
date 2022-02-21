@@ -17,11 +17,13 @@ export default function TermsCondition() {
           <Col className="col-xxl-8 col-xl-9 col-lg-10">
             <Terms.Content>
               <Terms.Text>
-                El desarrollo CITY BLUE con domicilio en la calle Guillermo
-                González Camarena 200, Santa Fe, Alvaro Obregón, C.P. 01210, en
-                la Ciudad de México, y portal de internet www.cityblue.mx  es el
-                responsable del uso y protección de sus datos personales, y al
-                respecto le informamos lo siguiente:
+                CITY TOWERS PEDREGAL SA DE CV., mejor conocido como PARK
+                PEDREGAL, con domicilio en calle Blvd. Adolfo Ruíz Cortines
+                3580, colonia San Jerónimo Aculco, Ciudad de México, delegación
+                La Magdalena Contreras, CP 10400, en la Ciudad de México, y
+                portal de internet www.parkpedregal.com , es el responsable del
+                uso y protección de sus datos personales, y al respecto le
+                informamos lo siguiente:
                 <br />
                 <br />
                 <Terms.TitleSmall as="h5">
@@ -29,31 +31,18 @@ export default function TermsCondition() {
                 </Terms.TitleSmall>
                 Los datos personales que recabamos de usted, los utilizaremos
                 para las siguientes finalidades que son necesarias para el
-                servicio que solicita:
-                <ul>
-                  <li>Para verificar y confirmar su identidad</li>{" "}
-                  <li>
-                    Para completar expediente para trámite de crédito
-                    hipotecario
-                  </li>{" "}
-                  <li>
-                    Para completar expediente para la escrituración del bien
-                    inmueble
-                  </li>
-                  <li>Notificaciones</li>
-                </ul>
-                De manera adicional, utilizaremos su información personal para
-                las siguientes finalidades secundarias que no son necesarias
-                para el servicio solicitado, pero que nos permiten y facilitan
-                brindarle una mejor atención:
-                <ul>
-                  <li>Mercadotecnia o publicitaria</li>
-                  <li> Prospección comercial </li>
-                </ul>
-                En caso de que no desee que sus datos personales sean tratados
-                para estos fines secundarios, desde este momento usted nos puede
-                comunicar lo anterior a través del siguiente mecanismo: A través
-                de www.cityblue.mx o por llamada telefónica al 55 1320 9258. La
+                servicio que solicita: • PARA VERIFICAR Y CONFIRMAR SU IDENTIDAD
+                • PARA COMPLETAR EXPEDIENTE PARA TRÁMITE DE CRÉDITO HIPOTECARIO
+                • PARA COMPLETAR EXPEDIENTE PARA LA ESCRITURACIÓN DEL BIEN
+                INMUEBLE • NOTIFICACIONES de manera adicional, utilizaremos su
+                información personal para las siguientes finalidades secundarias
+                que no son necesarias para el servicio solicitado, pero que nos
+                permiten y facilitan brindarle una mejor atención: •
+                Mercadotecnia o publicitaria • Prospección comercial En caso de
+                que no desee que sus datos personales sean tratados para estos
+                fines secundarios, desde este momento usted nos puede comunicar
+                lo anterior a través del siguiente mecanismo: A través de
+                www.parkpedregal.com o por llamada telefónica (55) 56040565. La
                 negativa para el uso de sus datos personales para estas
                 finalidades no podrá ser un motivo para que le neguemos los
                 servicios y productos que solicita o contrata con nosotros.
@@ -82,7 +71,6 @@ export default function TermsCondition() {
                   <li>Puesto o cargo que desempeña</li>
                   <li>Domicilio de trabajo</li>
                   <li>Correo electrónico institucional</li>
-                  <li>Domicilio de trabajo</li>
                   <li>Teléfono institucional</li>
                   <li> Referencias laborales</li>
                   <li>Historial crediticio</li>
@@ -120,7 +108,7 @@ export default function TermsCondition() {
                   ¿Cómo puede acceder, rectificar o cancelar sus datos
                   personales, u oponerse a su uso?
                 </Terms.TitleSmall>
-                 Usted tiene derecho a conocer qué datos personales tenemos de
+                Usted tiene derecho a conocer qué datos personales tenemos de
                 usted, para qué los utilizamos y las condiciones del uso que les
                 damos (Acceso). Asimismo, es su derecho solicitar la corrección
                 de su información personal en caso de que esté desactualizada,
@@ -131,22 +119,17 @@ export default function TermsCondition() {
                 específicos (Oposición). Estos derechos se conocen como derechos
                 ARCO. Para el ejercicio de cualquiera de los derechos ARCO,
                 usted deberá presentar la solicitud respectiva a través del
-                siguiente medio: Enviando un correo electrónico
-                info@cityblue.mx. Para conocer el procedimiento y requisitos
-                para el ejercicio de los derechos ARCO, ponemos a su disposición
-                el siguiente medio: Enviando un correo electrónico a Los datos
-                de contacto de la persona o departamento de datos personales que
-                está a cargo de dar trámite a las solicitudes de derechos ARCO,
-                son los siguientes:
-                <ul>
-                  <li> a) Gerencia de Comercialización</li>
-                  <li>
-                    b) Domicilio: Guillermo González Camarena 200, Santa Fe,
-                    Alvaro Obregón, C.P. 01210, en la Ciudad de México.
-                  </li>
-                  <li>c) Correo electrónico info@cityblue.mx.</li>
-                  <li>d) Número telefónico 55 1320 9258</li>
-                </ul>
+                siguiente medio: Enviando un correo electrónico a
+                info@parkpedregal.com . Para conocer el procedimiento y
+                requisitos para el ejercicio de los derechos ARCO, ponemos a su
+                disposición el siguiente medio: Enviando un correo electrónico a
+                info@parkpedregal.com . Los datos de contacto de la persona o
+                departamento de datos personales que está a cargo de dar trámite
+                a las solicitudes de derechos ARCO, son los siguientes: a)
+                Gerencia de Comercialización. b) Domicilio: Cerrada Oaxaca 15,
+                San Jerónimo Aculco,, 03400 Ciudad de México, Mexico c) Correo
+                electrónico info@parkpedregal.com d) Número telefónico: (55)
+                56040565
                 <br />
                 <br />
                 <Terms.TitleSmall as="h5">
@@ -164,10 +147,10 @@ export default function TermsCondition() {
                 servicio que nos solicitó, o la conclusión de su relación con
                 nosotros. Para revocar su consentimiento deberá presentar su
                 solicitud a través del siguiente medio: Enviando un correo
-                electrónico a info@cityblue.mx. Para conocer el procedimiento y
-                requisitos para la revocación del consentimiento, ponemos a su
-                disposición el siguiente medio: Enviando un correo electrónico
-                a  info@cityblue.mx.
+                electrónico a info@parkpedregal.com Para conocer el
+                procedimiento y requisitos para la revocación del
+                consentimiento, ponemos a su disposición el siguiente medio:
+                Enviando un correo electrónico a info@parkpedregal.com.
                 <br />
                 <br />
                 <Terms.TitleSmall as="h5">
@@ -176,8 +159,8 @@ export default function TermsCondition() {
                 </Terms.TitleSmall>
                 Con objeto de que usted pueda limitar el uso y divulgación de su
                 información personal, le ofrecemos los siguientes medios:
-                Llamando al 55 1320 9258 o enviando un correo electrónico
-                a info@cityblue.mx. De manera adicional, le informamos que
+                Llamando al (55) 56040565 o enviando un correo electrónico
+                a info@parkpedregal.mx. De manera adicional, le informamos que
                 contamos con los siguientes listados de exclusión, en los cuales
                 podrá registrarse para que sus datos personales no sean tratados
                 para ciertos fines:
@@ -190,7 +173,7 @@ export default function TermsCondition() {
                   </li>
                   <li>
                     Medio para obtener mayor información: Llamando 55 1320 9258
-                    o enviando un correo electrónico a info@cityblue.mx.
+                    o enviando un correo electrónico a info@parkpedregal.mx.
                   </li>
                 </ul>
                 <br />
@@ -230,10 +213,10 @@ export default function TermsCondition() {
                 cambios en nuestro modelo de negocio, o por otras causas. Nos
                 comprometemos a mantenerlo informado sobre los cambios que pueda
                 sufrir el presente aviso de privacidad, a través de: En el
-                siguiente sitio web www.cityblue.mx.  El procedimiento a través
-                del cual se llevarán a cabo las notificaciones sobre cambios o
-                actualizaciones al presente aviso de privacidad es el siguiente:
-                En el siguiente sitio web  www.cityblue.mx.
+                siguiente sitio web www.parkpedregal.com.  El procedimiento a
+                través del cual se llevarán a cabo las notificaciones sobre
+                cambios o actualizaciones al presente aviso de privacidad es el
+                siguiente: En el siguiente sitio web  www.parkpedregal.mx.
               </Terms.Text>
             </Terms.Content>
           </Col>

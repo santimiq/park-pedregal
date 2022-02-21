@@ -31,7 +31,7 @@ export default function HeroSection() {
                 <Hero.Button
                   className="btn-primary btn-1 text-white"
                   as={Video}
-                  id="UDdMbKIROvI"
+                  id="c1NinPPdW10"
                 >
                   Ver Video
                 </Hero.Button>
