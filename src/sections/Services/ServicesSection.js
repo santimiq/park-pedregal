@@ -40,8 +40,8 @@ export default function ServicesSection() {
               {/* Single Services */}
               <Col xs="12" className="card-grid">
                 <ServicesCard
-                  title="Altura de 2m²    "
-                  icon="fas fa-building"
+                  title="Altura de 2m²"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -50,7 +50,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Cubierta de granito en cocina"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -58,8 +58,8 @@ export default function ServicesSection() {
               {/* Single Services */}
               <Col xs="12" className="card-grid">
                 <ServicesCard
-                  title="Torre de hornos (gas y microondas)"
-                  icon="fas fa-building"
+                  title="Torre de hornos (gas y microondas)*"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -68,7 +68,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Iluminación led en interior de closets"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -77,7 +77,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Equipo de sonido en sala comedor"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -88,7 +88,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Piso de madera de Ingeniería Tzalan en recámaras"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -97,7 +97,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Tapiz en sala y recámaras"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -106,7 +106,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Cubierta de mármol en lavabos"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -115,7 +115,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Canceles de cristal templado en regaderas"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>
@@ -124,7 +124,7 @@ export default function ServicesSection() {
               <Col xs="12" className="card-grid">
                 <ServicesCard
                   title="Chapa de seguridad electrónica en puerta principal"
-                  icon="fas fa-building"
+                  // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
               </Col>

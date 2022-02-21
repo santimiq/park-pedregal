@@ -10,10 +10,10 @@ import Fade from "react-reveal/Fade"
 import { ImageViewer } from "react-image-viewer-dv"
 import img1 from "~image/departamentos/1.jpeg"
 import img2 from "~image/departamentos/2.jpeg"
-import img3 from "~image/departamentos/3.jpeg"
+import img3 from "~image/departamentos/3.jpg"
 import img4 from "~image/departamentos/4.jpeg"
 import img5 from "~image/departamentos/5.jpeg"
-import img6 from "~image/departamentos/6.jpeg"
+import img6 from "~image/departamentos/6.jpg"
 
 const breakpointColumnsObj = {
   default: 2,

@@ -14,6 +14,9 @@ const Footer = styled(Box)`
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     padding-top: 50px;
   }
+  .logo-footer {
+    width: 80% !important;
+  }
   @media (min-width: 768px) {
     padding-top: 80px;
   }

@@ -14,10 +14,11 @@ const Card = styled(Box)`
   color: #fff;
   background-color: rgba(242, 245, 251, 0.2);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
+  justify-content: center;
   z-index: 99;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 120px;
+  max-height: 120px;
   align-items: ${props => (props.itemCenter ? "center" : null)};
   text-align: ${props => (props.itemCenter ? "center" : null)};
   box-shadow: ${props =>

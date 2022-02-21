@@ -14,7 +14,11 @@ export default function FooterOne() {
                 {/* Brand Logo*/}
                 <Footer.Box mb="" className="text-center">
                   <Link to="/">
-                    <img src={Images.FooterOne.LogoWhite} alt="logo" />
+                    <img
+                      src={Images.FooterOne.LogoWhite}
+                      alt="logo"
+                      className="logo-footer"
+                    />
                   </Link>
                 </Footer.Box>
               </Footer.Widgets>

@@ -92,7 +92,7 @@ export default function FeatureSection() {
             <Tabs className="text-center">
               <TabList>
                 <Tab>
-                  <span className="titulo">A4</span>{" "}
+                  <span className="titulo">A4 2rec</span>{" "}
                 </Tab>
                 <Tab>
                   <span className="titulo">A4 3rec</span>{" "}
