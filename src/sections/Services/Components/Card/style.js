@@ -82,6 +82,7 @@ Card.Title = styled(Heading)`
   line-height: 1.4;
   color: inherit;
 `
+
 Card.Text = styled(Paragraph)`
   font-size: 15px;
   font-weight: 400;
