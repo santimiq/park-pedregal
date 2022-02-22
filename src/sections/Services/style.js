@@ -16,6 +16,11 @@ const Service = styled(Box)`
     }
   }
 
+  .segun {
+    color: #fff;
+    margin-top: 20px;
+  }
+
   .image-group {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -58,7 +58,7 @@ export default function ServicesSection() {
               {/* Single Services */}
               <Col xs="12" className="card-grid">
                 <ServicesCard
-                  title="Torre de hornos (gas y microondas)* (según prototipo)"
+                  title="Torre de hornos (gas y microondas)*"
                   // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
@@ -96,7 +96,7 @@ export default function ServicesSection() {
               {/* Single Services */}
               <Col xs="12" className="card-grid">
                 <ServicesCard
-                  title="Tapiz en sala y recámaras* (según prototipo)"
+                  title="Tapiz en sala y recámaras*"
                   // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
@@ -132,6 +132,11 @@ export default function ServicesSection() {
             </Fade>
           </div>
         </Row>
+        <Fade right>
+          <div>
+            <p className="segun">* Según prototipo</p>
+          </div>
+        </Fade>
         <div className="image-group">
           <ImageViewer>
             <img src={img1} alt="Acabado Foto" className="img-dpto" />
