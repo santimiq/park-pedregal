@@ -26,7 +26,7 @@ export default function ServicesSectionTwo() {
                 {/* Section Title */}
                 <SectionTitle
                   title="Desarrollo"
-                  text="274 departamentos en 16 niveles, con 3000m² de amenidades exclusivas en un desarrollo de usos mixtos: habitacional, oficinas y comercial, en Jardines del Pedregal."
+                  text="274 departamentos en 16 niveles, con 3950m² de amenidades exclusivas en un desarrollo de usos mixtos: habitacional, oficinas y comercial, en Jardines del Pedregal."
                   // titleProps={{ mb: "20px" }}
                   // subTitleProps={{
                   //   mb: "10px",
