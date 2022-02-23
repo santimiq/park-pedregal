@@ -2,7 +2,7 @@ import React from "react"
 import { SuperTag } from "~components"
 import Widget from "./style"
 
-export default function TabContentWidgetwo({count,title,text,...rest}) {
+export default function TabContentWidgetwo({ count, title, text, ...rest }) {
   return (
     <Widget {...rest}>
       <Widget.Text>
@@ -12,7 +12,7 @@ export default function TabContentWidgetwo({count,title,text,...rest}) {
             <li>Chapoteadero</li>
             <li>Gym</li>
             <li>Spinning</li>
-            <li>Yoga</li>
+            <li>Yoga/Fitness</li>
             <li>Vapor y sauna</li>
           </div>
           <div>

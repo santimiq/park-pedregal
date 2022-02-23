@@ -35,6 +35,10 @@ export default function HeroSection() {
                 >
                   Ver Video
                 </Hero.Button>
+                <Hero.Text className="ultimo-parra" fontColor="#fff">
+                  Compra en preventa y asegura las condiciones de tu crédito
+                  desde hoy.
+                </Hero.Text>
               </Hero.Content>
             </Slide>
           </Col>

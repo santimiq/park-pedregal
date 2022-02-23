@@ -34,7 +34,8 @@ export default function ServicesSectionTwo() {
                   // }}
                 />
                 <h4 className="trabaja">
-                  Trabaja desde la comodidad de tu hogar.
+                  Descansa, diviértete, entrena, disfruta y trabaja en el mismo
+                  lugar.
                 </h4>
                 {/*/ .Section Title */}
               </Service.Box>
@@ -66,10 +67,7 @@ export default function ServicesSectionTwo() {
                         una oficina privada en el mismo desarrollo?
                       </h5>
                       <h5>En Park Pedregal puedes cumplir este sueño.</h5>
-                      <h5>
-                        Descansa, diviértete, entrena, disfruta y trabaja en el
-                        mismo lugar.
-                      </h5>
+                      <h5>Trabaja desde la comodidad de tu hogar.</h5>
                       <div className="group-recorrido">
                         <a
                           href="https://amp.parkpedregal.com/oficinas/"

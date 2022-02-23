@@ -32,6 +32,10 @@ export default function PortfolioDetailsSection() {
               <PortfolioDetails.Title as="h2">
                 Departamentos
               </PortfolioDetails.Title>
+              <p className="sentence">
+                Compra en preventa y asegura las condiciones de tu crédito
+                hipotecario desde hoy.
+              </p>
             </Col>
           </Row>
         </Fade>

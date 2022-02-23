@@ -6,6 +6,11 @@ const PortfolioDetails = styled(Box)`
   padding-bottom: 100px;
   background: rgba(157, 143, 104, 0.3);
 
+  .sentence {
+    text-align: center;
+    color: #004581;
+  }
+
   @media (max-width: 768px) {
     padding-top: 80px;
     padding-bottom: 30px;

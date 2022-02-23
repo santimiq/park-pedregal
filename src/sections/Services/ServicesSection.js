@@ -10,7 +10,7 @@ import img2 from "~image/acabados/2.jpeg"
 import img3 from "~image/acabados/3.jpeg"
 import img4 from "~image/acabados/4.jpg"
 import img5 from "~image/acabados/5.jpg"
-import img6 from "~image/acabados/6.jpg"
+import img6 from "~image/acabados/6.jpeg"
 import Fade from "react-reveal/Fade"
 export default function ServicesSection() {
   return (
@@ -40,7 +40,7 @@ export default function ServicesSection() {
               {/* Single Services */}
               <Col xs="12" className="card-grid">
                 <ServicesCard
-                  title="Altura de 2m²"
+                  title="Altura de 2.75m²"
                   // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />
@@ -87,7 +87,7 @@ export default function ServicesSection() {
               {/* Single Services */}
               <Col xs="12" className="card-grid">
                 <ServicesCard
-                  title="Piso de madera de Ingeniería Tzalan en recámaras"
+                  title="Piso de madera de Ingeniería Tzalam en recámaras"
                   // icon="fas fa-building"
                   iconColor="#9D8F68"
                 />

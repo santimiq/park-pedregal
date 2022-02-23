@@ -8,6 +8,11 @@ const Hero = styled(Box)`
   background-position: right top;
   position: relative;
   z-index: 998;
+
+  .ultimo-parra {
+    margin-top: 28px;
+    font-size: 18px;
+  }
   @media (min-width: 768px) {
     padding-top: 145px;
     padding-bottom: 80px;
