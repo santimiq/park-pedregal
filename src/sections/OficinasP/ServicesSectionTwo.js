@@ -34,8 +34,8 @@ export default function ServicesSectionTwo() {
                   // }}
                 />
                 <h4 className="trabaja">
-                  Descansa, diviértete, entrena, disfruta y trabaja en el mismo
-                  lugar.
+                  Descansa, diviértete, entrena, disfruta y<br /> trabaja en el
+                  mismo lugar.
                 </h4>
                 {/*/ .Section Title */}
               </Service.Box>
