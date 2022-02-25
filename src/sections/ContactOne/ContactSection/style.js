@@ -215,6 +215,11 @@ Contact.Button = styled(Button)`
     color: #fff;
     background-color: rgba(#004581, 0.7);
   }
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(#004581/ 25%) !important;
+}
+  }
 `
 Contact.Box = styled(Box)``
 export default Contact

@@ -18,7 +18,21 @@ export default function ContactOne() {
                 <SectionTitle title="Contacto" />
               </Contact.Box>
               <Contact.From>
-                <form name="Contacto" netlify>
+                <form
+                  name="Contacto"
+                  method="post"
+                  data-netlify="true"
+                  onSubmit="submit"
+                  action="/mail"
+                  data-netlify-honeypot="bot-field"
+                >
+                  {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
+                  <input type="hidden" name="form-name" value="Contacto" />
+                  <p hidden>
+                    <label>
+                      Don’t fill this out: <input name="bot-field" />
+                    </label>
+                  </p>
                   <Row>
                     <Col xs="12" className="col-lg-6 mb-4">
                       <div className="form-floating">
