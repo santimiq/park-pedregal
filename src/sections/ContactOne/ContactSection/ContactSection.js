@@ -27,6 +27,7 @@ export default function ContactOne() {
                           placeholder="Leave a comment here"
                           id="floatinginput"
                           name="Nombre"
+                          type="text"
                         />
                         <label htmlFor="floatinginput">Nombre</label>
                       </div>
@@ -38,6 +39,7 @@ export default function ContactOne() {
                           placeholder="Leave a comment here"
                           id="floatinginput2"
                           name="Telefono"
+                          type="tel"
                         />
                         <label htmlFor="floatinginput2">Teléfono</label>
                       </div>
@@ -49,6 +51,7 @@ export default function ContactOne() {
                           placeholder="Leave a comment here"
                           id="floatinginput"
                           name="Email"
+                          type="email"
                         />
                         <label htmlFor="floatinginput">Email</label>
                       </div>
@@ -60,6 +63,7 @@ export default function ContactOne() {
                           placeholder="Leave a comment here"
                           id="floatinginput2"
                           name="Precio"
+                          type="number"
                         />
                         <label htmlFor="floatinginput2">
                           ¿Precio de la propiedad?
@@ -73,6 +77,7 @@ export default function ContactOne() {
                           placeholder="Leave a comment here"
                           id="floatingTextarea3"
                           name="Mensaje"
+                          type="text"
                         />
                         <label htmlFor="floatingTextarea3">
                           Escribe tu mensaje{" "}
