@@ -18,7 +18,7 @@ export default function ContactOne() {
                 <SectionTitle title="Contacto" />
               </Contact.Box>
               <Contact.From>
-                <form name="Contacto" method="POST" data-netlify="true">
+                <form name="Contacto" netlify>
                   <Row>
                     <Col xs="12" className="col-lg-6 mb-4">
                       <div className="form-floating">
