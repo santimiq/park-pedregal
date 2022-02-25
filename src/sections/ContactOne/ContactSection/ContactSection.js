@@ -107,7 +107,7 @@ export default function ContactOne() {
                           xs="12"
                           className="col-md-4 col-lg-5 col-xl-4 text-md-end pt-3"
                         >
-                          <Contact.Button>Enviar</Contact.Button>
+                          <Contact.Button type="submit">Enviar</Contact.Button>
                         </Col>
                       </Row>
                     </Col>
