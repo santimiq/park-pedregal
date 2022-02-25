@@ -18,7 +18,7 @@ export default function ContactOne() {
                 <SectionTitle title="Contacto" />
               </Contact.Box>
               <Contact.From>
-                <form action="./">
+                <form name="Contacto" netlify>
                   <Row>
                     <Col xs="12" className="col-lg-6 mb-4">
                       <div className="form-floating">
@@ -26,6 +26,7 @@ export default function ContactOne() {
                           className="form-control"
                           placeholder="Leave a comment here"
                           id="floatinginput"
+                          name="Nombre"
                         />
                         <label htmlFor="floatinginput">Nombre</label>
                       </div>
@@ -36,6 +37,7 @@ export default function ContactOne() {
                           className="form-control"
                           placeholder="Leave a comment here"
                           id="floatinginput2"
+                          name="Telefono"
                         />
                         <label htmlFor="floatinginput2">Teléfono</label>
                       </div>
@@ -46,6 +48,7 @@ export default function ContactOne() {
                           className="form-control"
                           placeholder="Leave a comment here"
                           id="floatinginput"
+                          name="Email"
                         />
                         <label htmlFor="floatinginput">Email</label>
                       </div>
@@ -56,6 +59,7 @@ export default function ContactOne() {
                           className="form-control"
                           placeholder="Leave a comment here"
                           id="floatinginput2"
+                          name="Precio"
                         />
                         <label htmlFor="floatinginput2">
                           ¿Precio de la propiedad?
@@ -68,6 +72,7 @@ export default function ContactOne() {
                           className="form-control"
                           placeholder="Leave a comment here"
                           id="floatingTextarea3"
+                          name="Mensaje"
                         />
                         <label htmlFor="floatingTextarea3">
                           Escribe tu mensaje{" "}
