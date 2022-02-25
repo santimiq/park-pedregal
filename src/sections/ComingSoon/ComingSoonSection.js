@@ -7,7 +7,7 @@ import Countdown from "./style"
 
 const ComingSoonSection = () => {
   return (
-    <Countdown backgroundColor="#f3f4f6">
+    <Countdown backgroundColor="#004581">
       <Container className="position-static">
         <Row className="align-items-center justify-content-center position-static">
           <Col xs="12" className="col-xl-6 col-lg-4 position-static">
