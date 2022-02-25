@@ -19,7 +19,6 @@ export default function ContactOne() {
               </Contact.Box>
               <Contact.From>
                 <form name="Contacto" netlify>
-                  <input type="hidden" name="form-name" value="Contacto">
                   <Row>
                     <Col xs="12" className="col-lg-6 mb-4">
                       <div className="form-floating">
